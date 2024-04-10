@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.navbar-brand img {
+  height: 20px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-signin {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-signin label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-signin input,
+.form-signin textarea {
+  margin-bottom: 20px;
+}
+
+.form-signin button {
+  margin-top: 20px;
+}
+
+.text-bg-primary {
+  color:#000000 !important;
+  background-color:RGBA(247,247,247) !important
+}
+
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: rgba(212,212,212) !important
+}
+
+.border-primary:hover {
+  border-color: rgba(13,110,253) !important
+}
+
+.border-primary:hover .text-bg-primary {
+  color: #ffffff !important;
+  background-color: RGBA(13, 110, 253) !important;
+}
